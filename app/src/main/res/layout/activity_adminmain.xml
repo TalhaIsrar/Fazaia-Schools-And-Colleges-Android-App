@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".AdminmainActivity">
+
+    <LinearLayout
+        android:id="@+id/heading"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentTop="true"
+        android:background="@color/colorPrimary"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/search_for_admin"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="7dp"
+            android:layout_weight="10"
+            android:background="@drawable/rounded_color"
+            android:cursorVisible="false"
+            android:gravity="center"
+            android:hint="@string/search"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff" />
+
+        <ImageView
+            android:id="@+id/search_admin"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="10dp"
+            android:background="@drawable/ic_search_black_24dp" />
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/add_student_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/heading"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_color"
+        android:text="Add Student"
+        android:textColor="#fff" />
+
+    <Button
+        android:id="@+id/add_teacher_screen"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/add_student_screen"
+        android:layout_margin="10dp"
+        android:background="@drawable/rounded_color"
+        android:text="Add Teacher"
+        android:textColor="#fff" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/gradientbackground">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/signout_admin"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_centerInParent="true"
+                android:layout_gravity="center"
+                android:background="@drawable/ic_exit_to_app_black_24dp" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

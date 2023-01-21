@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "309948748443",
+    "firebase_url": "https://fazaia-app-e9db7.firebaseio.com",
+    "project_id": "fazaia-app-e9db7",
+    "storage_bucket": "fazaia-app-e9db7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:309948748443:android:2f49616631ce16f8",
+        "android_client_info": {
+          "package_name": "com.buzzercode.fazaiaschoolsandcolleges"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "309948748443-32djdjlqsdlftn87bqieqlbnc6hbh2th.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.buzzercode.fazaiaschoolsandcolleges",
+            "certificate_hash": "554a2511bbca5fc18710b645e3f3b12c9394350b"
+          }
+        },
+        {
+          "client_id": "309948748443-od79dbsm0et1brgjcloq7qo3tdla91ku.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAAbx_T_ab-VnWk67y5nUQ30VXXhmo48do"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "309948748443-od79dbsm0et1brgjcloq7qo3tdla91ku.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

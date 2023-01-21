@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#1976d2</color>
+    <color name="colorPrimaryDark">#004ba0</color>
+    <color name="colorAccent">#63a4ff</color>
+    <color name="grey">#BDBDBD</color>
+
+    <color name="priority1">#c0ca33</color>
+    <color name="priority2">#fdd835</color>
+    <color name="priority3">#ffa000</color>
+    <color name="priority4">#ef6c00</color>
+    <color name="priority5">#bf360c</color>
+
+</resources>

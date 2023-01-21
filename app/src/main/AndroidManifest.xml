@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.buzzercode.fazaiaschoolsandcolleges">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/final_pic"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/final_pic"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".AddteacherActivity" />
+        <activity
+            android:name=".AddstudentActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".AdminmainActivity" />
+        <activity android:name=".ClasschatActivity" />
+        <activity android:name=".ParentmainActivity" />
+        <activity android:name=".FulltimetableActivity" />
+        <activity android:name=".TimetableActivity" />
+        <activity android:name=".SearchclassActivity" />
+        <activity android:name=".addnoteActivity" />
+        <activity
+            android:name=".ClassActivity"
+            android:windowSoftInputMode="stateHidden" />
+        <activity android:name=".NoteActivity" />
+        <activity android:name=".TeachermainActivity" />
+        <activity android:name=".ExtraloginActivity" />
+        <activity android:name=".SearchprofileActivity" />
+        <activity android:name=".ProfileActivity" />
+        <activity android:name=".LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".MainActivity" />
+    </application>
+
+</manifest>

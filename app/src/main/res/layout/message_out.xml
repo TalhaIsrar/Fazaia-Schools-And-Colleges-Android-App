@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:clipToPadding="false"
+    android:gravity="end"
+    android:orientation="horizontal"
+    android:paddingTop="6dp"
+    android:paddingBottom="6dp">
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:id="@+id/imgDps"
+        android:layout_width="64dp"
+        android:layout_height="64dp"
+        android:layout_marginStart="19dp"
+        android:layout_marginEnd="4dp"
+        android:background="@drawable/fazaialogo" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:elevation="10dp">
+
+        <LinearLayout
+            android:id="@+id/rltParent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:id="@+id/lnrContr"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#b7bff1"
+                android:minWidth="210dp"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:id="@+id/message_user"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:paddingStart="6dp"
+                    android:text="User Name"
+                    android:textColor="#3F51B5"
+                    android:textSize="17sp"
+                    android:textStyle="normal|bold" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="#26abc2" />
+
+            <TextView
+                android:id="@+id/message_text"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="2dp"
+                android:paddingStart="6dp"
+                android:paddingEnd="6dp"
+                android:text=""
+                android:textAppearance="@style/TextAppearance.AppCompat.Body1"
+                android:textIsSelectable="true"
+                android:textSize="16sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="0dp"
+                android:minWidth="200dp" />
+
+            <TextView
+                android:id="@+id/message_time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:layout_weight="1.5"
+                android:gravity="center_vertical"
+                android:paddingStart="6dp"
+                android:text="01-01-2000(00:00am)" />
+
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

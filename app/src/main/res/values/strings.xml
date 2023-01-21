@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">Fazaia Schools And Colleges</string>
+    <string name="user_name">User Name</string>
+    <string name="password">Password</string>
+    <string name="login">Login</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="sign_up">Sign Up</string>
+    <string name="search">Search</string>
+    <string name="number_prompt">Priority</string>
+
+    <string-array name="number_arrays">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+        <item>5</item>
+    </string-array>
+
+</resources>
